@@ -53,6 +53,7 @@ html {
     color: white;
     margin: 0px 10px;
     border-radius: 20px;
+    padding: 10px 15px;
 }
 .nav-link:hover {
     color: var(--base-color);
