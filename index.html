@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site || fortuneCodeHub Portfolio Site || Fullstack Web Developer and Web Designer</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="image/portfolio.svg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="" class="navbar-brand-link"><span><</span><span>F</span>CodeHub<span>/></span></a>
+            </div>
+            <div class="hamburger-icon dropdown-button" id="t-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="dropdown-collapse" id="hamburger-menu">
+                <ul class="navbar-navi m-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link dropdown-button" id="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link dropdown-button" id="nav-link">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link dropdown-button" id="nav-link">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link dropdown-button" id="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="hero-contain">
+            <div class="ambient-bg"></div>
+            <div class="container">
+                <div class="hero-text-section">
+                    <div class="text-content">
+                        <p><span id="text-change-section">Hello, I'm Fortune Nwohiri</span></p>
+                        <h1>Welcome to fortuneCodeHub</h1>
+                        <div class="btn-group">
+                            <a href="docu/FORTUNE_SOMTOCHUKWU_NWOHIRI.docx" class="btn-link-1 shadow">Download CV</a>
+                            <a href="#contact" class="btn-link-2 shadow">Contact Info</a>
+                        </div>
+                        <div class="link-group">
+                            <a href="" class="link-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="" class="link-link"><i class="bi bi-github"></i></a>
+                            <a href="" class="link-link"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="image-section">
+                        <img src="image/cssimg.png" alt="" class="shadow" style="border-radius: 50%;">
+                        <img src="image/jsimg.png" alt="" class="shadow" style="border-radius: 50%;">
+                        <img src="image/phpimg.png" alt="" class="shadow" style="border-radius: 50%;">
+                        <img src="image/gitimg.png" alt="" class="shadow" style="border-radius: 50%;background-color: white;">
+                        <img src="image/lvimg.png" alt="" class="shadow" style="border-radius: 20%;">
+                        <img src="image/htmlimg.png" alt="" class="shadow" style="border-radius: 50%;">
+                        <img src="image/my-image.png" alt="" class="img-fluid img-impo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <div class="about-section" id="about">
+        <div class="ambient-bg1"></div>
+        <div class="container">
+            <div class="about-head">
+                <p>Get To Know More</p>
+                <h2>About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12 about-image">
+                    <div class="about-img-bg">
+                        <img src="image/myimg3-edit.jpg" alt="" class="img-fluid shadow">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 ps-3 py-3 about-details">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="about-shrt-detail shadow">
+                                <i class="bi bi-award-fill"></i>
+                                <h4>Experience</h4>
+                                <p>3yrs in Frontend Development</p>
+                                <p>2yrs in Backend Development</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="about-shrt-detail shadow">
+                                <i class="bi bi-people-fill"></i>
+                                <h4>Education</h4>
+                                <p>A Student of NAU, Nigeria</p>
+                                <p>Expecting B.Sc in Computer Science</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-detail-text">
+                        Am a detail-oriented team player with strong organizational skills and am seeking the opportunity in creating dynamic and user-friendly web applications. I have the ability to handle multiple projects simultaneously with a high degree of accuracy. Am a motivated individual who seeks experience in web development positions to develop strong programming skills.
+                        I plan and prioritise well to complete multiple tasks simultaneously and within deadlines. I learn quickly to develop skills required for success.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Intersection Observer -->
+    <div id="sector">
+    
+    <!-- Experience Section -->
+    <section id="experience" class="exp-section">
+        <div class="ambient-bg1"></div>
+        <div class="container">
+            <div class="exp-head">
+                <p>Explore My</p>
+                <h2>Experience</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12 exp-details">
+                    <div class="exp-detail-bg shadow">
+                        <h4 class="text-center">Frontend Development</h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>HTML <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>CSS <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>Bootstrap 5 <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>Javascript <br> <span>Intermediate</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>Git(VC)<br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>GitHub<br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 exp-details">
+                    <div class="exp-detail-bg shadow">
+                        <h4 class="text-center">Backend Development</h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>MySQL Database <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>Core PHP <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>PHP Frameworks <br> <span>Experienced</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-start justify-content-center exp-skill-bg">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <div class="exp-skill">
+                                        <p>PHP Laravel <br> <span>Intermediate</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="project-section" id="projects">
+        <div class="container">
+            <div class="about-head py-5">
+                <p>Explore My</p>
+                <h2>Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/verbo.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">Verbo Chat Application Design</h4>
+                        <p class="pro-info">Just the design, backend with php laravel coming soon</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/Verbo-Chat-Application.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/Verbo-Chat-Application" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/proinvest.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">ProInvest Design</h4>
+                        <p class="pro-info">An Investment site with login and logout access</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/ProInvest-Design.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/ProInvest-Design/" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/proinvest.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">ProInvest Complete</h4>
+                        <p class="pro-info">Complete website with backend and frontend, it is not hosted but check my github to see the code or you can check the live video</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/ProInvest-Complete.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                            <span>sparkPhp Framework</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/codebootcamp.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">Code Bootcamp Design</h4>
+                        <p class="pro-info">Just the design no backend</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/CodeBootcamp-Design.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/CodeBootcamp-Design/" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/landingpage.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">Landing Page Design</h4>
+                        <p class="pro-info">Just the design no backend</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/LandingPage-Design.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/LandingPage-Design/" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/image-alt.svg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">Mobile Shoppee Website</h4>
+                        <p class="pro-info">A site for selling gadgets and phones, it is not hosted but you can check my github or you can click on the live video to check it on my linkedin page</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/MobileShoppe.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                            <span>Core PHP</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/ex-sales.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">Express Sales Design</h4>
+                        <p class="pro-info">Just the design no backend</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/EX-Sales.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/EX-Sales/" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/sokachin.jpg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">SokachinLtd site Design</h4>
+                        <p class="pro-info">Just the design no backend</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/SokachinLtd-Design.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://fortunecodehub.github.io/SokachinLtd-Design/" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pro-card shadow text-center">
+                        <div class="pro-card-img-bg">
+                            <img src="image/image-alt.svg" class="pro-card-img img-fluid" alt="">
+                        </div>
+                        <h4 class="pro-name">CodeGIGs</h4>
+                        <p class="pro-info">A site where you can sign up, login in order to list a tech gig. It has pagination, search, CRUD etc. It was created with php laravel</p>
+                        <div class="pro-link-group">
+                            <a href="https://github.com/fortuneCodeHub/CodeGIGs.git" target="_blank" rel="noopener noreferrer" class="pro-link-1 shadow">GitHub</a>
+                            <a href="https://" target="_blank" rel="noopener noreferrer" class="pro-link-2 shadow">Live Demo</a>
+                        </div>
+                        <div class="span-area">
+                            Created with:
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap 5</span>
+                            <span>Javascript</span>
+                            <span>Core PHP</span>
+                            <span>Laravel</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="about-head py-5">
+                <p>Get In Touch</p>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-details">
+                <div class="email"><span class="me-2"><i class="bi bi-envelope-fill"></i></span>fortunenwohiri@gmail.com</div>
+                <a href="" class="contact-link"><span class="me-2"><i class="bi bi-linkedin"></i></span>Linkedin</a>
+                <a href="" class="contact-link"><span class="me-2"><i class="bi bi-twitter"></i></span>Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+        <div class="contain-footer">
+            <div class="d-flex align-items-center justify-content-between flex-wrap mb-4">
+                <a href="#about" class="footer-link">About</a>
+                <a href="#experience" class="footer-link">Experiences</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="footer">
+                <p>Copyright &copy; 2023 <span><</span><span>F</span>CodeHub<span>/></span>, All Rights Reserved</p>
+            </div>
+        </div>
+    </section> 
+    </div>
+    <!-- JS Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Custom JS File -->
+    <script src="js/app.js" defer></script>
+</body>
+</html>
